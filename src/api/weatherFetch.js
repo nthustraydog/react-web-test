@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const key = '36978c6550efee0e27e50850cc57adda';
-const weatherBaseUrl = `http://api.openweathermap.org/data/2.5/weather?appid=${key}`;
+const weatherBaseUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${key}`;
 
 let weatherSource = axios.CancelToken.source();
 
