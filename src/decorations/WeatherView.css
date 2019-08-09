@@ -1,0 +1,15 @@
+.weather-container {
+	padding: 1rem;
+}
+
+.weather-container .weather{
+	width: 100%;
+	max-width: 24rem;
+	margin: 0 auto;
+}
+
+.weather-container .posts {
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}

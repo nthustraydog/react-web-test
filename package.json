@@ -1,0 +1,42 @@
+{
+  "name": "cloud-hw2-3tier",
+  "version": "1.0.0",
+  "description": "homework for developing three tier web application",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack -w",
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "team6",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "^8.0.0",
+    "uuid": "^3.3.2"
+  }
+}
